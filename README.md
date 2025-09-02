@@ -40,4 +40,55 @@ The dashboard showcases **AI-powered features** for customer support teams with 
 ---
 
 ## 📂 Project Structure  
+pacifisai-dashboard/
+│── public/ # Static files (logo placeholder, assets)
+│── src/
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Dashboard pages (each sidebar menu = one page)
+│ ├── context/ # Auth context (login/register/session)
+│ ├── App.jsx # Main app with routes
+│ ├── index.css # Styles
+│ └── main.jsx # Entry point
+│── package.json
+│── vite.config.js
+│── README.md
+
+
+---
+
+## ⚡ Getting Started  
+
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/your-username/pacifisai-dashboard.git
+cd pacifisai-dashboard
+
+2️⃣ Install Dependencies
+npm install
+
+3️⃣ Run Development Server
+npm run dev
+
+
+The app will be available at http://localhost:5173/
+
+4️⃣ Build for Production
+npm run build
+
+🎨 Branding
+
+Primary Color: #7446f4 (Purple)
+
+Secondary Color: #30e87a (Green)
+
+Typography: Inter + Poppins
+
+📌 Notes
+
+This project uses temporary session storage for authentication (not a real backend).
+
+Charts and chatbot are demo-only with mock data.
+
+Future versions can integrate with APIs and real databases.
+
 
